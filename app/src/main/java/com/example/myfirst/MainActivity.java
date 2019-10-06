@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
         adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,sztringlista);
         listadoboz.setAdapter(adapter);
         adapter.clear();
-        adapter.add("alap");
         listadoboz.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
