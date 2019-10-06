@@ -9,7 +9,7 @@
     <Button
         android:id="@+id/gomb"
         android:layout_width="201dp"
-        android:layout_height="68dp"
+        android:layout_height="51dp"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
         android:layout_marginEnd="100dp"
@@ -22,11 +22,11 @@
 
     <TextView
         android:id="@+id/szoveg"
-        android:layout_width="345dp"
-        android:layout_height="51dp"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="400dp"
@@ -34,17 +34,16 @@
         android:inputType="textPersonName"
         android:text="haho"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/gomb"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/névcella"
-        android:layout_width="353dp"
-        android:layout_height="41dp"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="21dp"
@@ -56,8 +55,19 @@
         android:text="Name"
         app:layout_constraintBottom_toTopOf="@+id/gomb"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/szoveg"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="330dp"
+        android:layout_height="358dp"
+        android:layout_marginTop="168dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gomb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
